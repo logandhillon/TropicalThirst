@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "tropical_thirst",
+	"version": "${version}",
+	"name": "TropicalThirst",
+	"description": "Quench your thirst with this succulent Minecraft mod!",
+	"authors": [
+		"Logan Dhillon"
+	],
+	"contact": {
+		"sources": "https://github.com/logandhillon/TropicalThirst"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/tropical_thirst/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.logandhillon.tropical_thirst.TropicalThirst"
+		],
+		"client": [
+			"net.logandhillon.tropical_thirst.TropicalThirstClient"
+		],
+		"fabric-datagen": [
+			"net.logandhillon.tropical_thirst.DataGen"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
